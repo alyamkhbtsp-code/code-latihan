@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Bunga Lavender</title>
+  <style>
+    /* Reset & basic */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f6f0f8;
+      color: #4a3f55;
+      line-height: 1.6;
+    }
+    a {
+      color: #7e57c2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: #c9b6e8;
+      padding: 3rem 1rem;
+      text-align: center;
+      color: #3e2f5b;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.3rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #5a4d7c;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #a085c9;
+      padding-bottom: 0.5rem;
+    }
+
+    /* Galeri Foto */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(122, 100, 175, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    ul {
+      list-style: inside disc;
+      margin-left: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: #c9b6e8;
+      color: #3e2f5b;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portofolio Bunga Lavender</h1>
+  <p>Menjelajahi keindahan dan manfaat lavender</p>
+</header>
+
+<main>
+  <section id="about">
+    <h2>Tentang Lavender</h2>
+    <p>Lavender adalah tanaman berbunga yang dikenal dengan aroma khasnya yang menenangkan. 
+       Tanaman ini berasal dari daerah Mediterania dan memiliki banyak varietas.</p>
+    <p>Lavender sering digunakan dalam aromaterapi, kosmetik, dan juga untuk dekorasi.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeri Foto Lavender</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Lavender Field 1" />
+      <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=400&q=80" alt="Lavender Close-up" />
+      <img src="https://images.unsplash.com/photo-1524578271613-bfe0f19a14ca?auto=format&fit=crop&w=400&q=80" alt="Lavender Field 2" />
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=400&q=80" alt="Lavender Bunch" />
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2>Manfaat Lavender</h2>
+    <ul>
+      <li>Menenangkan dan mengurangi stres melalui aromaterapi.</li>
+      <li>Membantu mengatasi masalah tidur dan insomnia.</li>
+      <li>Digunakan dalam produk kecantikan untuk kulit dan rambut.</li>
+      <li>Memiliki sifat antiseptik ringan.</li>
+    </ul>
+  </section>
+
+  <section id="care">
+    <h2>Cara Merawat Lavender</h2>
+    <ul>
+      <li>Tanam di tempat yang mendapat sinar matahari penuh.</li>
+      <li>Gunakan tanah yang kering dan memiliki drainase baik.</li>
+      <li>Sirami secara teratur tapi jangan terlalu basah.</li>
+      <li>Pangkas bunga setelah masa berbunga untuk merangsang pertumbuhan baru.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Portofolio Lavender. Dibuat dengan ❤️ oleh Kamu.
+</footer>
+
+</body>
+</html>

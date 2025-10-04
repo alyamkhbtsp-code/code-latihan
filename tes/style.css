@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #f8f8f8;
+}
+
+.nav a {
+  margin: 0 10px;
+}
+
+.btn {
+  background: #5e3c6d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.btn-red {
+  background: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hero-image img {
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Services */
+.services {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #eaeaea;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.testimonial {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 60px 40px;
+  background: #f2f2f2;
+}
+
+.cta .btn {
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-left nav a {
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.footer-left .social a {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-right form input,
+.footer-right form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-right form button {
+  background: #5e3c6d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
